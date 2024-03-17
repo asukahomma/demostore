@@ -1,0 +1,5 @@
+package com.demostore.asuka.controller;
+
+public class LoginController {
+
+}

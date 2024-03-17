@@ -1,0 +1,5 @@
+package com.demostore.asuka.repository;
+
+public interface OrderItemRepository {
+
+}

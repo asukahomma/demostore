@@ -1,0 +1,17 @@
+##DB setting 
+spring.datasource.url=jdbc:postgresql://localhost:5432/demostore
+spring.datasource.username=asuka
+spring.datasource.password=asuka
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+##thymeleaf setting
+spring.thymeleaf.cache=false
+
+##logging setting
+spring.profiles.active=develop
+logging.level.org.springframework.web=DEBUG
+logging.level.org.hibernate=ERROR
+
+##contextpath
+server.servlet.context-path=/asuka/demostore/com
